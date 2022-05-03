@@ -1,5 +1,5 @@
 .fundoo {
-    background-image: linear-gradient(180deg, #e43f3f 10%, #bbbbbb 100%) !important;
+    background-image: linear-gradient(180deg, #e43f3f, #bbbbbb);
 }
 
 h4 {
