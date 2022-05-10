@@ -1,63 +1,81 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
     <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="estilo.css">
-    <title>aula-PW</title>
+    <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
+    <nav class="navbar shadow navbar-dark bg-light fixed-top">
+        <div class="container-fluid">
 
-    <section id="menu">
-        <section class="menu menu-3 ">
-            <nav class="navbar navbar-dropdown navbar-expand-lg navbar-light bg-light fixed-top">
-                <div class="container">
-
-                    <!-- cod logo -->
-                    <div class="navbar-brand"><img src="logo.png" alt="Etec news" srcset="" width="91px    " height="50px"></div>
+            <button class="navbar-toggler bg-dark " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
 
 
-                    <button class="navbar-toggler" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+            <div>
+                <img class="img-fluid logo" src="logo.png" alt="">
+            </div>
 
-                        
-                    
 
-                    </button>
 
-                    <div id="my-nav" class="collapse navbar-collapse">
-                        <ul class="navbar-nav mr-auto">
-                            <li class="nav-item ">
-                                <a class="nav-link link" href="index.html">Inicio</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link link" href="noticias" tabindex="-1" aria-disabled="true">Notícias</a>
-                            </li>
+            <div class="icons-menu">
+                <a class="iconfont-wrapper icon" href="https://www.facebook.com/etecdelins.lins1" target="_blank">
+                    <img class="img-fluid" src="face.png" alt="">
+                </a>
+                <a class="iconfont-wrapper icon" href="https://www.instagram.com/etec_lins/" target="_blank">
+                    <img class="img-fluid" src="insta.png" alt="">
+                </a>
 
-                            <li class="nav-item">
-                                <a href="" class="nav-link"></a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="" class="nav-link"></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </section>
-    </section>
-    <br>
-    <br>
 
-    <section class="header18 fundoo mbr-fullscreen">
+            </div>
+
+        </div>
+    </nav>
+
+    <div class="offcanvas offcanvas-start d-flex flex-column flex-shrink-0 p-3 bg-light" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel" style="width: 280px;">
+
+        <img src="logo.png" alt="">
+        <hr>
+        <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Procurar" aria-label="Procurar">
+            <button class="btn btn-outline-success" type="submit"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Procurar</font></font></button>
+        </form>
+        <ul class="nav nav-pills flex-column mb-auto">
+            <li class="nav-item">
+                <a href="index.html" class="nav-link link-dark">
+                    <i class=" bi bi-house-door-fill me-2 "></i> Inicio
+                </a>
+            </li>
+            <li class="nav-item ">
+                <a href="noticias.html " class="nav-link link-dark ">
+                    <i class="bi bi-list-ul me-2 "></i> Notícias
+                </a>
+            </li>
+            <li class="nav-item ">
+                <a href="cursos.html " class="nav-link link-dark ">
+                    <i class="bi bi-list-ul me-2 "></i> Cursos
+                </a>
+            </li>
+        </ul>
+        <hr>
+
+    </div>
+
+    <section class="header18 img-fundo mbr-fullscreen">
         <div class="container">
             <div class="row">
                 <div class="col-12">
+                    <br>
+                    <br>
                     <br>
                     <br>
                     <center><img class="img-fluid" src="fundo.png" alt="Etec lins"></center>
@@ -65,78 +83,65 @@
             </div>
         </div>
     </section>
-    <br>
-    <br>
+    <center>
+        <h4 class="mbr-section-title mbr-fonts-style mb-0 display-2">
+            <strong>#Notícias</strong></h4>
+        <hr>
+    </center>
 
-    <section class="noticias">
-        <div class="container-fluid">
-            <div class="mbr-section-head">
-                <h4 class="mbr-section-title mbr-fonts-style mb-0 display-2">
-                    <center><strong class="color-test">Notícias</strong> </center>
-                </h4>
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col-12 col-sm-5 col-md-5">
+                <img class="img-fluid" src="http://gsmcelulares.com.br/images/sem_foto.png" alt="">
+            </div>
+
+            <div class="col-12 col-sm-5 col-md-5">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Error fuga cum similique id. Minima facere quasi, amet ipsa quas, magnam quibusdam iste vitae reprehenderit temporibus, sit eaque enim. Voluptates, est! Enim et distinctio, tenetur nam commodi minima
+                necessitatibus, totam quo sed aspernatur vitae tempora libero. Eaque, reprehenderit, reiciendis placeat dolores enim perspiciatis quos sint mollitia, in magnam dolorem obcaecati quam! Cupiditate sed distinctio dicta voluptatum numquam
+                natus id, consequuntur incidunt illo nihil repudiandae expedita deleniti exercitationem minus. Quasi dignissimos, accusamus in, ipsam quam totam repellat libero quisquam nisi omnis earum? Blanditiis velit cumque repudiandae sunt culpa?
+                Accusamus dicta placeat error quo itaque quasi. Cum impedit earum rem sit? Consequatur consectetur fugiat numquam voluptatum perspiciatis assumenda tempore qui cumque amet nisi.
             </div>
         </div>
-    </section>
-    <hr>
+    </div>
+
+    <br>
+
 
     <div class="container">
         <div class="row">
             <div class="col-12 col-sm-5 col-md-5">
                 <div class="container-fluid">
-                    <div class="row mt3">
+                    <div class="row mt-5">
                         <div class="col-12 col-sm-4 col-md-4">
-                            <img class="img-fluid" src="https://victorregis885.github.io/PW2-15-03/download.png" alt="">
-                            <h5>noticia</h5>
+                            <img class="img-fluid" src="http://gsmcelulares.com.br/images/sem_foto.png" alt="">
                         </div>
                         <div class="col-12 col-sm-8 col-md-8">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae et earum fugit maxime laboriosam sapiente cupiditate totam debitis, aliquam tenetur illum impedit unde ad! Numquam, velit dolorem. Impedit, id quam. Cum quae illo
-                            </p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat, tempora, itaque magnam laborum sequi
                         </div>
                     </div>
-                    <div class="row mt3">
+                    <div class="row mt-5">
                         <div class="col-12 col-sm-4 col-md-4">
-                            <img class="img-fluid" src="https://victorregis885.github.io/PW2-15-03/download.png" alt="">
-                            <h5>noticia</h5>
+                            <img class="img-fluid" src="http://gsmcelulares.com.br/images/sem_foto.png" alt="">
                         </div>
                         <div class="col-12 col-sm-8 col-md-8">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae et earum fugit maxime laboriosam sapiente cupiditate totam debitis, aliquam tenetur illum impedit unde ad! Numquam, velit dolorem. Impedit, id quam. Cum quae illo
-                            </p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat, tempora, itaque magnam laborum sequi
                         </div>
                     </div>
-                    <div class="row mt3">
+                    <div class="row mt-5">
                         <div class="col-12 col-sm-4 col-md-4">
-                            <img class="img-fluid" src="https://victorregis885.github.io/PW2-15-03/download.png" alt="">
-                            <h5>noticia</h5>
+                            <img class="img-fluid" src="http://gsmcelulares.com.br/images/sem_foto.png" alt="">
                         </div>
                         <div class="col-12 col-sm-8 col-md-8">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae et earum fugit maxime laboriosam sapiente cupiditate totam debitis, aliquam tenetur illum impedit unde ad! Numquam, velit dolorem. Impedit, id quam. Cum quae illo
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-12 col-sm-6 col-md-6">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-12 col-sm-5 col-md-5">
-                            <img class="img-fluid" src="https://victorregis885.github.io/PW2-15-03/download.png" alt=""><span>principal</span>
-
-                        </div>
-                        <div class="col-12 col-sm-6 col-md-6 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, impedit a est qui soluta quae facilis, aspernatur et consequuntur nulla unde. Laborum laboriosam eos corporis corrupti maxime recusandae quaerat ab! Lorem ipsum dolor
-                            sit amet consectetur adipisicing elit. Officiis, aliquid. Doloremque necessitatibus hic qui eaque similique tempora reiciendis, officiis placeat? Ipsa cupiditate qui eligendi earum rerum. Ut nemo in cupiditate. Lorem ipsum
-                            dolor sit amet consectetur adipisicing elit. Ut voluptatibus facere illo dolorum! Quaerat nostrum cumque reprehenderit, vel accusantium consectetur explicabo? Tempora obcaecati quas consectetur veritatis quibusdam cumque! Voluptates,
-                            neque!
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat, tempora, itaque magnam laborum sequi
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
-
-    <script src="js/jquery-3.6.0.min.js"></script>
-    <script src="js/bootstrap.js"></script>
+    <script src="jquery-3.6.0.min.js "></script>
+    <script src="js/bootstrap.js "></script>
+    <script src="java.js"></script>
 </body>
 
 </html>
