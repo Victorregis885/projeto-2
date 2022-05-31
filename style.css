@@ -30,7 +30,7 @@
 .fondo-fundo {
     margin: 0;
     padding: 0;
-    background-image: url(fndoo.jpg);
+    background-color: #2b3088;
     -webkit-backdrop-size: cover;
     background-size: cover;
     font-family: Tahoma, sans-serif;
